@@ -71,9 +71,6 @@ $(document).ready(function(){
         app.temp_min = app.datos.main.temp_min;
         app.temp_max = app.datos.main.temp_max;
 
-        var condicionIcono = app.datos.weather[0].icon;
-        console.log('conseguimos el icono '+condicionIcono);
-
         $('#tiempo').append('   Tº: '+app.temperatura+' Humedad: '+app.humedad +' Tº max: '+app.temp_max+' Tº min: '+app.temp_min);
     }
 });

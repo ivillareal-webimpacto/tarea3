@@ -25,4 +25,4 @@
  */
 *}
 
-<div id="tiempo"><i class="light rain icon"></i></div>
+<div id="tiempo"></div>
